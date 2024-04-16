@@ -1,0 +1,84 @@
+body {
+    background-color: #e8e8e4;
+    color: #6c757d;
+}
+
+.navi {
+    position: fixed;
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+    padding: 20px;
+    left: 0;
+    top: 0;
+}
+
+nav {
+    flex: 1;
+  }
+  nav table {
+    width: 80px;
+    margin-left: auto;
+    margin-right: 50px;
+  }
+  nav table th {
+    padding: 8px;
+  }
+
+a{
+    text-decoration: none;
+    color: #6c757d;
+}
+
+a:hover {
+    color: #495057;
+}
+
+main{
+    padding-top: 120px;
+    margin: 0 500px;
+}
+
+
+.intro {
+    text-align: left;
+}
+
+.intro p{
+    font-size: 30px;
+}
+
+.logobox {
+    padding-top: 20px;
+}
+
+.logobox table th{
+    padding: 7px;
+    font-size: x-large;
+}
+
+.resume img{
+    width: 35%;
+    border-radius: 70px;
+    margin-right: 40px;
+}
+
+.resume {
+    display: flex;
+    width: 100%;
+    align-content: center;
+}
+
+.description {
+    font-size: 20px;
+    text-align: justify;
+}
+
+.page2{ 
+    background-color: grey;
+}
+
+.resume2 {
+    color: black;
+}
+
